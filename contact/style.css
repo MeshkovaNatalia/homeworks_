@@ -1,0 +1,111 @@
+body {
+
+    background-color: #dbefff;
+}
+input {
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #42aaff;
+    background: #a8d8ff;
+    border-radius: 8px;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+    width: 300px;
+    height: 50px;
+    background: #f6f6f6;
+    border: 1px solid #cecece;
+    border-radius: 8px 0 0 0;
+    padding: 8px 0 8px 10px;
+}
+
+
+input[type=submit] {
+    color:#00c6ff;
+    margin:20px auto;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #00C6FF;
+}
+
+input[type=submit]:hover {
+    background-position: 0 0;
+    color:#fff;
+}
+
+.errors {
+    color: #fc6156;
+    font-family: ‘Lato’, sans-serif;
+    font-size: 17px;
+    line-height: 15px;
+    margin: 0 0 5px;
+}
+
+.text {
+    display: inline-block;
+    color: #111;
+    font-family: ‘Helvetica Neue’, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -1px; line-height: 1;
+}
+
+.name {
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-family: 'Fredoka One', cursive;
+    transition: .3s ease-in-out;
+    text-shadow: 1px 1px 1px #555555;
+    font-size: 15px;
+}
+
+.name:hover {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+a:link {
+    color: #92B8C5;
+}
+
+a:visited {
+    color: #92B8C5;
+}
+
+.date {
+    display: inline-block;
+    color: #fe921f;
+}
+
+.message {
+    color: #7a7c7f;
+    font-size: 23px;
+    font-family: «Libre Baskerville», serif;
+    line-height: 5px;
+    text-shadow: 0 1px 1px #fff;
+    padding-left: 20px;
+    word-wrap: break-word;
+}
+
+.border {
+    text-align: center;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #42aaff;
+    border-radius: 8px;
+    margin: 50px auto;
+    padding: 50px;
+    width: 550px;
+    line-height: 150%;
+}
+
+
+
