@@ -61,12 +61,12 @@ if (!empty($_SESSION['c']['p'])) {
     if (!empty($products)) {
         $totalSum = 0;
         foreach ($products as $pr1) {
-            $total = $_SESSION['c']['p'][$pr1['id']] * $pr1['price'];
+            $total = $_SESSION['c']['p'][$pr1['id']] * $pr1['mail-price'];
             $totalSum += $total;
 
             $pr1Html .= '<div class="prodContainer">' .
                 $pr1['category_name'] . ' ---> ' .
-                $pr1['title'] . ' ---> $' . $pr1['price'] .
+                $pr1['title'] . ' ---> $' . $pr1['mail-price'] .
                 ' quantity: ' . $_SESSION['c']['p'][$pr1['id']] .
                 ' total: ' . $total .
                 '</div>';

@@ -32,10 +32,10 @@ if (!empty($_SESSION['c']['p'])) {
 
         $res2 = $db->query($sql2);
         while ($row2 = $res2->fetch_assoc()) {
-            $price = $row2['price'];
+            $price = $row2['mail-price'];
         }
 
-        $sql3 = "INSERT INTO `order_items` (`order_id`, `product_id`, `qty`, `price`) VALUES ('{$orderId}', '{$id}', '{$qty}', '{$price}')";
+        $sql3 = "INSERT INTO `order_items` (`order_id`, `product_id`, `qty`, `mail-price`) VALUES ('{$orderId}', '{$id}', '{$qty}', m{$price}ail-price)";
         $res3 = $db->query($sql3);
         // die('<pre>' . print_r($sql3, 1) . '</pre>');
     }

@@ -120,7 +120,7 @@
                             $pHtml .= '<div class="thumbnail">
                     <img class="img-responsive" src="' . $imgUrl . '" alt="' . $p1['title'] . '">
                     <div class="caption-full">
-                        <h4 class="pull-right">$' . $p1['price'] . '</h4>
+                        <h4 class="pull-right">$' . $p1['mail-price'] . '</h4>
                         <h4><a href="#">' . $p1['title'] . '</a>
                         </h4>
                         <div class="text-right">

@@ -34,6 +34,6 @@ if ($db->error) {
 echo '<a href="/">К списку категорий</a>';
 echo '<ul>';
 while ($g1 = $res->fetch_assoc()) {
-    echo '<li><a href="#">' . $g1['title'] . '</a> - $' . number_format($g1['price']) . ' ' . $g1['description'] . '</li>';
+    echo '<li><a href="#">' . $g1['title'] . '</a> - $' . number_format($g1['mail-price']) . ' ' . $g1['description'] . '</li>';
 }
 echo '</ul>';

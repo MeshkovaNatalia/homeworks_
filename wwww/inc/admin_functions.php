@@ -203,7 +203,7 @@ function displayGoods() {
     <input type="text" name="image_url" value="' . $g2['image_url'] . '" placeholder="Image URL" maxlength="255">
 </div>
 <div>
-    <input type="text" name="price"  value="' . $g2['price'] . '" placeholder="$ Price">
+    <input type="text" name="mail-price"  value="' . $g2['mail-price'] . '" placeholder="$ Price">
 </div>
 <div>
     <input type="checkbox" name="active" value="1" ' . $checked . '>
