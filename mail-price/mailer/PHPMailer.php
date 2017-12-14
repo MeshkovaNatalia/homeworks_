@@ -4083,7 +4083,7 @@ $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 $mail->Username = 'meshkova.natalia7';
-$mail->Password = '09091995N';
+$mail->Password = '******';
 $mail->Host = 'tls://smtp.gmail.com:587';
 $mail->setFrom('meshkova.natalia7@gmail.com');
 $mail->addAddress('mieshkova.nataliia@itruck.com.ua');
