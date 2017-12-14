@@ -10,7 +10,7 @@ $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'meshkova.natalia7';
+$mail->Username = '****';
 $mail->Password = '*****';
 $mail->Host = 'tls://smtp.gmail.com:587';
 $mail->setFrom('meshkova.natalia7@gmail.com');
